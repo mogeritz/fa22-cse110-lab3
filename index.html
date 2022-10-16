@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Meeting Minutes Team 21</title>
+        <link rel="icon" type="image/x-icon" href="/images/noteicon.ico">
+    </head>
+    <body>
+        <header>
+            <h1>CSE110 Team 21 meeting minutes, Moritz Wagner</h1>
+            <video width="640" height="360" controls autoplay>
+                <source src="videos/matrix.mp4" type="video/mp4">
+                Your browser doesn't support video.
+            </video>
+            <section>
+                <div>Latest Meeting on 10/9/2022</div>
+                <details>
+                    <summary>Summary of latest meeting</summary>
+                    <p>Organization and allocation of Team Time and resources</p>
+                </details>
+            </section>
+            <hr>
+            <section>
+                <h2>Site Navigation</h2>
+                <img src="images/nav.jpg" alt="A car is in a tree. How? No clue.">
+                <nav>
+                    <ol>
+                        <li><a href="#10-9-2022">Meeting on 10/9/2022</a></li>
+                        <li><a href="#10-10-2022">Meeting planned on 10/10/2022</a></li>
+                        <li><a href="#add">Add new Meeting elements</a></li>
+                    </ol>
+                </nav>
+            </section>
+            <hr>
+        </header>
+        <main>
+            <h2>Meetings</h2>
+            <img src="images/meeting.jpg" alt="Keep it short, joe">
+            <h3 id="10-9-2022">10/9/2022</h3>
+            <section>
+                <strong>Contents</strong>
+                <ul>
+                    <li>General Organization</li>
+                    <li>Planning of next meetings</li>
+                    <li>Provisional Assignment of roles</li>
+                </ul>
+            </section>
+            <section>
+                <h4 id="genorg">General Organization</h4>
+                <p>
+                    It was decided that our Team should meet on Mondays, <b>between 1pm and 2pm</b><br>
+                    Furthermore, the following elements of Infrastructure were set up for the team:
+                    <span>Private Slack Channel, </span><span>Slack Workspace, </span><span>Github Repository,
+                    </span><span>Whatsapp Channel</span>
+                </p>
+            </section>
+            <section>
+                <h4>Planning of next meetings</h4>
+                <p>The next meeting is planned for monday, 10/10/2022, in the <a href="#genorg"><i>usual
+                            timeslot</i></a><br>This pattern will continue from now on.</p>
+            </section>
+            <section>
+                <h4>Provisional Assignment of roles</h4>
+                <p>
+                    The role assignemt (as it stands now) is comprised of:<br>
+                    <span><em>Primary Team Lead: </em> Ji Hoon Kim, </span><span><em>UI Developer: </em> Melvyn Tan,
+                    </span><span><em>Backend Developer, </em> Nikki Rejai, </span> and <span><em>Network engineer: </em>
+                        Moritz Wagner</span>
+                <details>
+                    <summary>Note</summary>
+                    <p>This is not a complete nor finished list.</p>
+                </details>
+            </section>
+            <h3 id="10-10-2022">Planned: 10/10/2022</h3>
+            <section>
+                <strong>Contents</strong>
+                <ul>
+                    <li><input type="checkbox">Finalize Assignment of roles</li>
+                    <li><input type="checkbox">First look at initial assignment</li>
+                </ul>
+            </section>
+            <hr>
+            <h2 id="add">Add new meeting</h2>
+            <section>
+                <form>
+                    <label for="date">Date of Meeting:</label>
+                    <input type="date" id="date" name="date"><br>
+                    <label for="desc">Description:</label>
+                    <input type="text" id="desc" name="desc"><br>
+                    <label for="author">Held by: </label>
+                    <input list="members" name="author" id="author">
+                    <datalist id="members">
+                        <option value="Moritz Wagner"></option>
+                        <option value="Ji Hoon Kim"></option>
+                        <option value="Joyce Weng"></option>
+                        <option value="Linh Nguyen"></option>
+                        <option value="Melvyn Tan"></option>
+                    </datalist>
+                    <fieldset>
+                        <input type="radio" id="planned" name="meetingType" value="Planned Meeting">
+                        <label for="planned">Planned Meeting</label><br>
+                        <input type="radio" id="notes" name="meetingType" value="Meeting Notes">
+                        <label for="notes">Meeting Notes</label><br>
+                    </fieldset>
+                    <label for="meetingnotes">Record Meeting Notes here:</label><br>
+                    <textarea id="meetingnotes" name="meetingnotes" rows="10" cols="50">Place all recorded notes on the specified meeting here.</textarea><br>
+                    <label for="addOrStore">Choose what happens: </label>
+                    <select name="addOrStore" id="addOrStore">
+                        <option value="add">Add</option>
+                        <option value="store">Store</option>
+                    </select><br>
+                    <button type="button">Save</button>
+                </form>
+            </section>
+            <hr>
+        </main>
+        <footer>
+            <audio controls autoplay>
+                <source src="audio/gnome.mp3" type="audio/mp3">
+                Your browser doesn't support audio.
+            </audio>
+            <p>You've been <i><b>gnomed</b></i></p>
+            <p>Made by <b>Moritz Wagner</b></p>
+        </footer>
+    </body>
+</html>
