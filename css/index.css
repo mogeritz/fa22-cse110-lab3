@@ -95,6 +95,12 @@ h1~video{
     padding-left: 1cm;
 }
 
+@media (max-width: 1280px) {
+    h1~video{
+        max-width: 80vw;
+    }
+  }
+
 main h3{
     text-decoration: underline;
     text-decoration-thickness: 1px;
