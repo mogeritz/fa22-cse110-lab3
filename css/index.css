@@ -1,8 +1,19 @@
 /* css file for index.html*/
+
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@font-face {
+    font-family: Futura;
+    src: url(/fonts/futura.ttf);
+}
+
 h1{
     color: rgb(130, 0, 150);
     text-decoration: underline overline blue;
     text-align: center;
+    font-family: Futura;
 }
 
 h2{
@@ -14,10 +25,12 @@ h2{
     background-color: #FCD;
     padding: 1mm;
     width: 50vw;
+    font-family: Futura;
 }
 
 h3,details{
     color: rgb(100, 100, 200);
+    font-family: Futura;
 }
 
 p.expandedDetails{
