@@ -1,0 +1,27 @@
+/* css file for index.html*/
+h1{
+    color: rgb(130, 0, 150);
+    text-decoration: underline overline blue;
+}
+
+h2{
+    color: blueviolet;
+    text-decoration: dashed underline rgb(100, 100, 200);
+}
+
+h3,details{
+    color: rgb(100, 100, 200);
+}
+
+p.expandedDetails{
+    background-color: darkslateblue;
+    color: white;
+}
+
+section>strong{ /*contents*/
+    text-decoration: underline;
+}
+
+strong+ul{
+    background-color: pink;
+}
