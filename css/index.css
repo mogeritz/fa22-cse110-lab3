@@ -2,11 +2,18 @@
 h1{
     color: rgb(130, 0, 150);
     text-decoration: underline overline blue;
+    text-align: center;
 }
 
 h2{
     color: blueviolet;
     text-decoration: dashed underline rgb(100, 100, 200);
+    text-align: start;
+    position: sticky;
+    top: 0;
+    background-color: #FCD;
+    padding: 1mm;
+    width: 50vw;
 }
 
 h3,details{
@@ -16,6 +23,7 @@ h3,details{
 p.expandedDetails{
     background-color: darkslateblue;
     color: white;
+    display: inline;
 }
 
 section>strong{ /*contents*/
@@ -24,4 +32,69 @@ section>strong{ /*contents*/
 
 strong+ul{
     background-color: pink;
+    display: inline-block;
+}
+
+img{
+    max-width: 80vw;
+    border-style: double;
+    border-color: purple;
+    border-width: 5px;
+    border-radius: 0;
+    padding: 1em;
+    margin: 5mm 10mm 5mm 10mm;
+    height:30vh;
+}
+
+h1~video{
+    /*sizing*/
+    max-width: 60vw;
+    /*border*/
+    border-top-style: dotted;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+    border-right-style: solid;
+
+    border-top-color: rgb(100, 100, 200);
+    border-bottom-color: rgb(100, 100, 200);
+    border-right-color: rgb(100, 100, 200);
+    border-left-color: rgb(100, 100, 200);
+
+    border-top-width: 4px;
+    border-bottom-width: 4px;
+    border-left-width: 2px;
+    border-right-width: 2px;
+
+    border-top-left-radius: 1in;
+    border-bottom-right-radius: 1in;
+
+    /*margin*/
+    margin-top: 5px;
+    margin-bottom: 2rem;
+    margin-left: 10vw;
+    margin-right: 10vw;
+
+    /*padding*/
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+    padding-right: 1cm;
+    padding-left: 1cm;
+}
+
+main h3{
+
+}
+
+#meetingnotes{
+    max-height: 20vh;
+}
+
+a:hover{
+    color: blue;
+}
+
+[preload="metadata"]{
+    position: fixed;
+    right: 0;
+    bottom: 0;
 }
